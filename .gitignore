@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+dist/
+build/
+.gradle/
+
+# React Native specific
+android/app/debug/
+android/app/release/
+ios/Pods/
+*.jks
+*.p8
+
+# Watchman
+.watchmanconfig
+
+# Buck
+.buckconfig
+.buckd/
+buck-out/
+
+# FastLane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Babel
+.babelrc
+
+# Cache
+.eslintcache
+.cache/
