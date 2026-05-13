@@ -274,7 +274,16 @@ The app uses **Expo Router** with a Stack navigator (defined in `_layout.tsx`):
 
 ---
 
-## 📚 Additional Resources
+## � Screenshots
+
+### App Preview
+![Screenshot 1](./ScreenShorts/HIDnC1NbUAAiYGO.jpg)
+![Screenshot 2](./ScreenShorts/HIDnCXKbgAATCvR.jpg)
+![Screenshot 3](./ScreenShorts/HIDnDMSasAAeXSD.jpg)
+
+---
+
+## �📚 Additional Resources
 
 - [React Native Docs](https://reactnative.dev/)
 - [Expo Documentation](https://docs.expo.dev/)
