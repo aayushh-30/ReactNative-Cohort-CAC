@@ -50,3 +50,7 @@ fastlane/test_output/
 # Cache
 .eslintcache
 .cache/
+
+ReactNav
+
+FoodFox/screenshots/FoofFox preview.*
