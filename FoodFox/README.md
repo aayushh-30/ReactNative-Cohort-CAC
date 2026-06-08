@@ -5,6 +5,7 @@ This document describes the types of navigation used in this project and points 
 ## Summary
 
 The app uses React Navigation with a combination of navigators to structure the app flow:
+Video Link : [Link](https://drive.google.com/file/d/1Hj7Z4X9G_KQf30UUqwYs5OlVQ1KHPtCD/view?usp=sharing)
 
 - Stack Navigator — for screen-to-screen flows and nested stacks.
 - Tab Navigator — for primary bottom tab navigation between main sections.
