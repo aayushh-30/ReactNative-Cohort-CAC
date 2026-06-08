@@ -24,7 +24,7 @@ export default function TabNavigator() {
           ? 'none'
           : route.name === 'Home'
             ? getFocusedRouteNameFromRoute(route) ===
-              'ResturantDetailsScreen'
+              'RestaurantDetailsScreen'
               ? 'none'
               : 'flex'
             : 'flex',

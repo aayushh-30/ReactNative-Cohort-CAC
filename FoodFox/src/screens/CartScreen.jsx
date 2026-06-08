@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,6 +9,9 @@ import {
 } from 'react-native';
 
 import {SafeAreaView} from 'react-native-safe-area-context';
+import { useState} from 'react'
+
+
 
 const cartItems = [
   {
@@ -43,6 +46,8 @@ const cartItems = [
 ];
 
 const CartScreen = () => {
+  const [cartItem,setCartItem] = useState([])
+  const [noOfItems,setNoOfItems] = useState(0)
 
   const totalPrice = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,

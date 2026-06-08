@@ -1,13 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   Image,
-  SafeAreaView,
   FlatList,
   Pressable,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const foodItems = {
   'Burger Hub': [
